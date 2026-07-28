@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/owl_bg"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🦉"
+        android:textSize="48sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/requesterText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Someone wants to control this device"
+        android:textColor="@color/owl_text"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="They will be able to view your screen, control it, and send/receive files until you end the session."
+        android:textColor="@color/owl_text_dim"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/allowButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Allow"
+        android:backgroundTint="@color/owl_green"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/denyButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Deny"
+        android:backgroundTint="@color/owl_red" />
+
+</LinearLayout>
