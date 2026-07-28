@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "369309800171",
+    "firebase_url": "https://remote-7c170-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "remote-7c170",
+    "storage_bucket": "remote-7c170.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369309800171:android:14f4524b489b929eefd0ae",
+        "android_client_info": {
+          "package_name": "com.nightowl.remote"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRwkEVgE7nWs9903rE408xynWzKSCLV40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
