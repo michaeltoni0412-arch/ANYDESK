@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Night Owl Remote</string>
+    <string name="accessibility_service_description">Lets a device you\'ve explicitly allowed control this screen during an active Night Owl Remote session.</string>
+</resources>
