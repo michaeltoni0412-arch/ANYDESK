@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/owl_bg">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🦉 Night Owl Remote"
+        android:textColor="@color/owl_text"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Setup"
+        android:textColor="@color/owl_accent"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/notifButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Allow Notifications" />
+
+    <Button
+        android:id="@+id/accessibilityButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="2. Enable Control Access" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Control Access lets an allowed device perform taps on your screen ONLY while a session is active and you've tapped Allow."
+        android:textColor="@color/owl_text_dim"
+        android:textSize="11sp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your device code"
+        android:textColor="@color/owl_accent"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/myCodeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="------"
+        android:textColor="@color/owl_text"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@drawable/panel_bg"
+        android:padding="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/listenStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share this code with someone you trust. Listening for connection requests: OFF"
+        android:textColor="@color/owl_text_dim"
+        android:textSize="12sp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connect to a device"
+        android:textColor="@color/owl_accent"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/codeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter their code"
+        android:textColor="@color/owl_text"
+        android:textColorHint="@color/owl_text_dim"
+        android:inputType="textCapCharacters"
+        android:background="@drawable/panel_bg"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/connectButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Request to Connect" />
+
+    <TextView
+        android:id="@+id/connectStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/owl_text_dim"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
+</ScrollView>
