@@ -1,0 +1,9 @@
+<resources>
+    <color name="owl_bg">#1B1F3B</color>
+    <color name="owl_accent">#7C4DFF</color>
+    <color name="owl_green">#00C853</color>
+    <color name="owl_red">#FF5252</color>
+    <color name="owl_text">#FFFFFF</color>
+    <color name="owl_text_dim">#B0B3C6</color>
+    <color name="owl_row">#252A4A</color>
+</resources>
